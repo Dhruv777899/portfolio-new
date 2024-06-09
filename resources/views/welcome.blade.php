@@ -7,6 +7,5 @@
 </head>
 <body>
     <h1>Dhruv</h1>
-    @vite('resources/js/app.js')
 </body>
 </html>

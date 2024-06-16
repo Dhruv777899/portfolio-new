@@ -1,0 +1,42 @@
+// Font Stacks
+//--------------------------------------------------------------------------------//
+$font-primary    : 'Inter', sans-serif;
+
+
+// Font Weights
+//--------------------------------------------------------------------------------//
+$font-weight-thin       : 100;
+$font-weight-light      : 300;
+$font-weight-medium     : 400;
+$font-weight-bold       : 700;
+$font-weight-ultra-bold : 900;
+
+
+
+// Colors
+$cream-background: #F3D9AE;
+$bright-orange: #DFA64A;
+$primary-gray: #303030;
+$light-gray: #5B5B5B;
+
+//Font size
+$font-xxl: 58px;
+$font-xl: 40px;
+$font-l: 24px;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);

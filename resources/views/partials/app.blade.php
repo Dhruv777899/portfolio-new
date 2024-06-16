@@ -7,6 +7,8 @@
         @vite(['resources/sass/app.scss', 'resources/js/app.js'])    
     </head>
     <body>
-        <h1>Dhruv</h1>
+        @include('partials.templates.header');
+        @yield('content')
+        @include('partials.templates.footer');
     </body>
 </html>

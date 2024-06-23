@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/praja431/public_html/portfolio
+    - export DEPLOYPATH=/home/praja431/portfolio.prajapatidhruv.com
     - /bin/cp -R * $DEPLOYPATH
     - cd $DEPLOYPATH
     - npm install

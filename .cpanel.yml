@@ -1,0 +1,14 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/praja431/public_html/portfolio
+    - /bin/cp -R * $DEPLOYPATH
+    - cd $DEPLOYPATH
+    - npm install
+    - composer install
+    - npm run build
+    - php artisan migrate
+    - php artisan db:seed
+    - php artisan config:cache
+    - php artisan route:cache
+    - php artisan view:cache

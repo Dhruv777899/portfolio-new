@@ -7,8 +7,8 @@
 @import 'base';
 
 // Includes
-// @import 'header';
-// @import 'footer';
+@import 'partials/header';
+@import 'partials/footer';
 
 // Page imports
 @import 'pages/home';

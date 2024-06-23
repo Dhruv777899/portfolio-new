@@ -4,8 +4,13 @@
 
 @section('content')
 <section id="hero">
-    <h1>Hi, I'm [Your Name]</h1>
-    <p>Creating beautiful and functional web experiences with a focus on intuitive design and smooth animations.</p>
-    <a href="#" class="cta-button">View My Work</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="h4">Hello I'm Dhruv</h1>
+                <p class="h1">I’m a seasoned UI/UX Designer, crafting intuitive interfaces with a <strong>robust design</strong> and <strong>coding foundation</strong>.</p>
+            </div>
+        </div>
+    </div>
 </section>
 @endsection
